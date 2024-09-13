@@ -1,0 +1,15 @@
+Project Overview
+This Python package provides advanced tools for hyperparameter optimization and model evaluation in machine learning. 
+It enables comprehensive exploration of parameter spaces, adapts feature values to ensure consistency, and integrates 
+default metrics for both regression and classification tasks.
+
+Features
+Search Space Generation: Create detailed hyperparameter search spaces using functions that generate both uniform and random samples.
+
+Feature Value Adaptation: Convert scalar or iterable inputs into one-dimensional NumPy arrays for model compatibility.
+
+Hyperparameter Mapping: Transform mappings of hyperparameters into structured formats, supporting both scalar and iterable values.
+
+Model Metrics: Includes default evaluation metrics such as mean squared error, R² score, and more for regressors and classifiers.
+
+Model Validation: Functions to check model types and ensure appropriate metrics are applied based on whether the model is a regressor or classifier.
